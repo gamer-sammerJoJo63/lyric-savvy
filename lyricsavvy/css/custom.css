@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif !important;
+}
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0 !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+  height: 6vh;
+}
+
+.navbar a {
+  color: #fff !important;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content, .sidenav {
+  height: 88vh;
+}
+
+.row.content {
+  background-image: url("../img/bkgd.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.row.content .overlay {
+  background-color: rgba(89, 35, 135, 0.52);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lyrics {
+  background: #fff;
+  padding: 15px;
+  box-shadow: 3px 3px 7px 3px rgba(131,36,214,0.5);
+  border-radius: 12px;
+}
+
+.lyrics p {
+  margin-bottom: 0;
+  margin-top: 15px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.lyrics button {
+  margin: 0;
+  background-color: #4d77c2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.lyrics p.timerPara,
+.lyrics p.timerPara,
+.lyrics p.answerPara,
+.lyrics button.timer,
+.lyrics button.answer {
+  display: none;
+}
+
+.lyrics {
+  min-height: 24px;
+  min-width: 250px;
+  padding: 50px;
+}
+
+.lyrics p {
+  font-size: 24px;
+  padding: 25px 0;
+  display: none;
+}
+
+.questionBoxGame .lyrics p.songParaGame {
+  display: block;
+  margin-top: 0;
+}
+
+.questionBoxAdmin .lyrics p.answerPara {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.questionBoxGame .lyrics p.answerParaGame,
+.questionBoxAdmin.lyrics p.answerPara {
+  padding-top: 0;
+}
+
+.lyrics p span {
+  display: block;
+  width: 100%;
+  color: rgba(200, 85, 85, 1);
+  font-size: 32px;
+}
+
+#progressBar {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive !important;
+  text-align: center !important;
+  margin: 20px;
+  color: #ffff;
+  padding-bottom: 50px;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555 !important;
+  color: white !important;
+  padding: 15px !important;
+  height: 6vh;
+}
+
+footer p {
+  margin-bottom: 0;
+}
